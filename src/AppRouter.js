@@ -11,7 +11,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center" style={{}}>
       {"Copyrightⓒ"}
-      fsoftwareengineer, {new Date().getFullYear()}
+      seonyoon, {new Date().getFullYear()}
       {"."}
     </Typography>
   );

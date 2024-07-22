@@ -27,7 +27,7 @@ export function call(api, method, request) {
           return Promise.reject(json);
         }
         return json;
-      })
+      }),
     )
     .catch((error) => {
       console.log(error.status);
@@ -53,5 +53,5 @@ export function signout() {
 }
 
 export function signup(userDTO) {
-  return call("auth/signup", "POST", userDTO);
+  return call("/auth/signup", "POST", userDTO);
 }
